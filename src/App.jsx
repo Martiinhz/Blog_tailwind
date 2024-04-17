@@ -15,12 +15,15 @@ function App() {
         <Header></Header>
         <Main>
           <News>
+            <div className="shadow-2xl bg-white">
             <img src={image} alt="" />
             <h2>17/04/2024</h2>
             <h1>Titulo de la noticía</h1>
             <p>Barcelona ya tendría listo el reemplazo de Xavi: sería un mexicano.</p>
+            </div>
           </News>
           <Section>
+            <div>
             {extras.map(item => (
               <Card 
                 key={item._id}
@@ -29,6 +32,8 @@ function App() {
                 date={item.date}
               />
             ))}
+            </div>
+
           </Section>
         </Main>
       </Home>
