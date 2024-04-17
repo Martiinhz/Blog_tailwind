@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Home = ({children}) => {
   return (
-    <div className='w-full h-full bg-cyan-600'>
+    <div className='w-full h-full bg-green-500'>
         {children}
     </div>
   )
