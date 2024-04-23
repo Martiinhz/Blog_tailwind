@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Card = ({img,date, description}) => {
   return (
-    <div className='flex p-5 items-center'>
+    <div className='flex p-5 items-center shadow-2xl '>
         <div className='w-1/3'>
         <img className='pr-2' src={img} />
         </div>

@@ -20,6 +20,6 @@ export const extras = [
         _id:4,
         img:new4,
         date:'17-04-2024',
-        description: 'Esta noticia es una cosa de locos'
+        description: '¿Millonarios es como el Real Madrid? Comparación ha generado polémica'
     }
 ]

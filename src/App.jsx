@@ -6,6 +6,8 @@ import { Home } from "./Components/Pages/Home/Home"
 import image from './assets/img1.jpg'
 import { Card } from "./Components/Card/Card"
 import { extras } from "./Components/scripts/Lista/Lista"
+import { GalleryImages } from "./Components/GalleryImages/GalleryImages"
+
 
 
 function App() {
@@ -35,7 +37,9 @@ function App() {
             </div>
 
           </Section>
+          
         </Main>
+        <GalleryImages/>
       </Home>
     </>
   )
